@@ -7,8 +7,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, 'src/components/index.js'),
-      name: 'ClockAssistLib',
-      fileName: (format) => `clockassist-lib.${format}.js`,
+      name: 'ViteVueTestComponentsLib',
+      fileName: (format) => `vite-vue-test-components.${format}.js`,
     },
     rollupOptions: {
       external: ['vue'],
